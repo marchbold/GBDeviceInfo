@@ -151,7 +151,10 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
     if ([systemInfoString hasPrefix:@"iMacPro"]) {
         return GBDeviceFamilyiMacPro;
     }
-    else if ([systemInfoString hasPrefix:@"iMac"]) {
+    else if ([systemInfoString hasPrefix:@"iMac"]
+             // See https://support.apple.com/en-us/HT201634
+             || [systemInfoString isEqualToString:@"Mac15,4"]
+             || [systemInfoString isEqualToString:@"Mac15,5"]) {
         return GBDeviceFamilyiMac;
     }
     else if ([systemInfoString hasPrefix:@"Macmini"]
@@ -160,14 +163,26 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
             || [systemInfoString isEqualToString:@"Mac14,12"]) {
         return GBDeviceFamilyMacMini;
     }
-    else if ([systemInfoString hasPrefix:@"Mac13,"]) { // See https://support.apple.com/en-us/HT213073
+    else if (// Mac Studio: See https://support.apple.com/en-us/HT213073
+             [systemInfoString isEqualToString:@"Mac14,13"]
+             || [systemInfoString isEqualToString:@"Mac14,14"]
+             || [systemInfoString hasPrefix:@"Mac13,"]) {
         return GBDeviceFamilyMacStudio;
     }
-    else if ([systemInfoString hasPrefix:@"MacPro"]) {
+    else if ([systemInfoString hasPrefix:@"MacPro"]
+             // See https://support.apple.com/en-us/HT202888
+             || [systemInfoString isEqualToString:@"Mac14,8"]) {
         return GBDeviceFamilyMacPro;
     }
     else if ([systemInfoString hasPrefix:@"MacBookPro"]
              // See https://support.apple.com/en-us/HT201300
+             || [systemInfoString isEqualToString:@"Mac15,3"]
+             || [systemInfoString isEqualToString:@"Mac15,6"]
+             || [systemInfoString isEqualToString:@"Mac15,7"]
+             || [systemInfoString isEqualToString:@"Mac15,8"]
+             || [systemInfoString isEqualToString:@"Mac15,9"]
+             || [systemInfoString isEqualToString:@"Mac15,10"]
+             || [systemInfoString isEqualToString:@"Mac15,11"]
              || [systemInfoString isEqualToString:@"Mac14,5"]
              || [systemInfoString isEqualToString:@"Mac14,9"]
              || [systemInfoString isEqualToString:@"Mac14,6"]
@@ -177,6 +192,7 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
     }
     else if ([systemInfoString hasPrefix:@"MacBookAir"]
              // See https://support.apple.com/en-us/HT201862
+             || [systemInfoString isEqualToString:@"Mac14,15"]
              || [systemInfoString isEqualToString:@"Mac14,2"]) {
         return GBDeviceFamilyMacBookAir;
     }

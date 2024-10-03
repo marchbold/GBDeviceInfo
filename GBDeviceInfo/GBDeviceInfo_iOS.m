@@ -402,6 +402,10 @@
                 // iPad 8th Gen, 2020
                 @[@11, @6]: @[@(GBDeviceModeliPad8), @"iPad 2020", @(GBDeviceDisplay10p2Inch), @264],
                 @[@11, @7]: @[@(GBDeviceModeliPad8), @"iPad 2020", @(GBDeviceDisplay10p2Inch), @264],
+                
+                // iPad 9th Gen, 2021
+                @[@12, @1]: @[@(GBDeviceModeliPad9), @"iPad 2021", @(GBDeviceDisplay10p2Inch), @264],
+                @[@12, @2]: @[@(GBDeviceModeliPad9), @"iPad 2021", @(GBDeviceDisplay10p2Inch), @264],
 
                 // Air 4
                 @[@13, @1]: @[@(GBDeviceModeliPadAir4), @"iPad Air 4", @(GBDeviceDisplay10p9Inch), @264],
@@ -419,10 +423,6 @@
                 @[@13, @10]: @[@(GBDeviceModeliPadPro12p9Inch5), @"iPad Pro 5th Gen (12.9 inch, WiFi+Cellular)", @(GBDeviceDisplay12p9Inch), @264],
                 @[@13, @11]: @[@(GBDeviceModeliPadPro12p9Inch5), @"iPad Pro 5th Gen (12.9 inch, WiFi+Cellular)", @(GBDeviceDisplay12p9Inch), @264],
 
-                // Air 5, 2022
-                @[@13, @16]: @[@(GBDeviceModeliPadAir5), @"iPad Air 5th Gen (WiFi)", @(GBDeviceDisplay10p9Inch), @264],
-                @[@13, @17]: @[@(GBDeviceModeliPadAir5), @"iPad Air 5th Gen (WiFi+Cellular)", @(GBDeviceDisplay10p9Inch), @264],
-                
                 // iPad Pro 3rd Gen 11-inch, 2021
                 @[@13, @4]: @[@(GBDeviceModeliPadPro11Inch3), @"iPad Pro 3rd Gen (11 inch, WiFi)", @(GBDeviceDisplay11Inch), @264],
                 @[@13, @5]: @[@(GBDeviceModeliPadPro11Inch3), @"iPad Pro 3rd Gen (11 inch, WiFi+Cellular)", @(GBDeviceDisplay11Inch), @264],
@@ -442,10 +442,6 @@
                 // mini 6
                 @[@14, @1]: @[@(GBDeviceModeliPadMini6), @"iPad mini 6", @(GBDeviceDisplay8p3Inch), @326],
                 @[@14, @2]: @[@(GBDeviceModeliPadMini6), @"iPad mini 6", @(GBDeviceDisplay8p3Inch), @326],
-                
-                // iPad 9th Gen, 2021
-                @[@12, @1]: @[@(GBDeviceModeliPad9), @"iPad 2021", @(GBDeviceDisplay10p2Inch), @264],
-                @[@12, @2]: @[@(GBDeviceModeliPad9), @"iPad 2021", @(GBDeviceDisplay10p2Inch), @264],
 
                 // iPad 10th Gen, 2022
                 @[@13, @18]: @[@(GBDeviceModeliPad10), @"iPad 2022", @(GBDeviceDisplay10p9Inch), @264],
