@@ -469,28 +469,28 @@
                 @[@14, @6]: @[@(GBDeviceModeliPadPro12p9Inch6), @"iPad Pro 6th Gen (12.9 inch, WiFi+Cellular)", @(GBDeviceDisplay12p9Inch), @264],
 
                 // iPad Air (13-inch, 2024)
-                @[@15, @3]: @[@(GBDeviceModeliPadAir7), @"iPad Air 11-inch 7th Gen (WiFi)",          @(GBDeviceDisplay13Inch), @264],
-                @[@15, @4]: @[@(GBDeviceModeliPadAir7), @"iPad Air 11-inch 7th Gen (WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
+                @[@15, @3]: @[@(GBDeviceModeliPadAir7), @"iPad Air 11-inch 7th Gen (WiFi)",          @(GBDeviceDisplay11Inch), @264],
+                @[@15, @4]: @[@(GBDeviceModeliPadAir7), @"iPad Air 11-inch 7th Gen (WiFi+Cellular)", @(GBDeviceDisplay11Inch), @264],
 
                 @[@15, @5]: @[@(GBDeviceModeliPadAir6), @"iPad Air (13-inch, 6th Gen, WiFi)",          @(GBDeviceDisplay13Inch), @264],
                 @[@15, @6]: @[@(GBDeviceModeliPadAir6), @"iPad Air (13-inch, 6th Gen, WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
 
-                @[@15, @7]: @[@(GBDeviceModeliPad11), @"iPad 11th Gen (WiFi)",          @(GBDeviceDisplay13Inch), @264],
-                @[@15, @8]: @[@(GBDeviceModeliPad11), @"iPad 11th Gen (WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
+                @[@15, @7]: @[@(GBDeviceModeliPad11), @"iPad 11th Gen (WiFi)",          @(GBDeviceDisplay11Inch), @264],
+                @[@15, @8]: @[@(GBDeviceModeliPad11), @"iPad 11th Gen (WiFi+Cellular)", @(GBDeviceDisplay11Inch), @264],
 
                 // mini 7
                 @[@16, @1]: @[@(GBDeviceModeliPadMini7), @"iPad mini 7th Gen (WiFi)",          @(GBDeviceDisplay8p3Inch), @326],
                 @[@16, @2]: @[@(GBDeviceModeliPadMini7), @"iPad mini 7th Gen (WiFi+Cellular)", @(GBDeviceDisplay8p3Inch), @326],
 
-                @[@16, @3]: @[@(GBDeviceModeliPadPro11Inch5), @"iPad Pro 11 inch 5th Gen (WiFi)",          @(GBDeviceDisplay8p3Inch), @326],
-                @[@16, @4]: @[@(GBDeviceModeliPadPro11Inch5), @"iPad Pro 11 inch 5th Gen (WiFi+Cellular)", @(GBDeviceDisplay8p3Inch), @326],
+                @[@16, @3]: @[@(GBDeviceModeliPadPro11Inch5), @"iPad Pro 11 inch 5th Gen (WiFi)",          @(GBDeviceDisplay11Inch), @326],
+                @[@16, @4]: @[@(GBDeviceModeliPadPro11Inch5), @"iPad Pro 11 inch 5th Gen (WiFi+Cellular)", @(GBDeviceDisplay11Inch), @326],
                 
                 // iPad Pro (13-inch, 2024, OLED, a.k.a. 7th Gen 12.9->13”)
                 @[@16, @5]: @[@(GBDeviceModeliPadPro13Inch), @"iPad Pro (13-inch, WiFi)",          @(GBDeviceDisplay13Inch), @264],
                 @[@16, @6]: @[@(GBDeviceModeliPadPro13Inch), @"iPad Pro (13-inch, WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
 
-                @[@17, @1]: @[@(GBDeviceModeliPadPro11Inch8), @"iPad Pro 11 inch 8th Gen (WiFi)",          @(GBDeviceDisplay13Inch), @264],
-                @[@17, @2]: @[@(GBDeviceModeliPadPro11Inch8), @"iPad Pro 11 inch 8th Gen (WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
+                @[@17, @1]: @[@(GBDeviceModeliPadPro11Inch8), @"iPad Pro 11 inch 8th Gen (WiFi)",          @(GBDeviceDisplay11Inch), @264],
+                @[@17, @2]: @[@(GBDeviceModeliPadPro11Inch8), @"iPad Pro 11 inch 8th Gen (WiFi+Cellular)", @(GBDeviceDisplay11Inch), @264],
                 @[@17, @3]: @[@(GBDeviceModeliPadPro13Inch8), @"iPad Pro 13 inch 8th Gen (WiFi)",          @(GBDeviceDisplay13Inch), @264],
                 @[@17, @4]: @[@(GBDeviceModeliPadPro13Inch8), @"iPad Pro 13 inch 8th Gen (WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
             },
