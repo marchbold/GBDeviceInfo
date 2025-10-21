@@ -2,6 +2,8 @@
 
 Detects the hardware, software and display of the current iOS or Mac OS X device at runtime.
 
+Source for the most up-to-date database: https://gist.github.com/adamawolf/3048717
+
 ![Version](https://img.shields.io/cocoapods/v/GBDeviceInfo.svg?style=flat)&nbsp;![License](https://img.shields.io/badge/license-Apache_2-green.svg?style=flat)
 
 iOS
